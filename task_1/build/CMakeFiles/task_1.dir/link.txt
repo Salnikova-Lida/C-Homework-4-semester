@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/task_1.dir/group.cpp.o CMakeFiles/task_1.dir/user.cpp.o CMakeFiles/task_1.dir/task_1.cpp.o -o task_1 

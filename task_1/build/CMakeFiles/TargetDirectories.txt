@@ -1,0 +1,3 @@
+/home/lida/Documents/programki/C++/4sem/hw/task_1/build/CMakeFiles/task_1.dir
+/home/lida/Documents/programki/C++/4sem/hw/task_1/build/CMakeFiles/edit_cache.dir
+/home/lida/Documents/programki/C++/4sem/hw/task_1/build/CMakeFiles/rebuild_cache.dir
