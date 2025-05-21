@@ -1,5 +1,5 @@
 CMakeFiles/task_1.dir/task_1.cpp.o: \
- /home/lida/Documents/programki/C++/4sem/hw/task_1/task_1.cpp \
+ /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/task_1.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -171,8 +171,8 @@ CMakeFiles/task_1.dir/task_1.cpp.o: \
  /usr/include/c++/11/bits/erase_if.h \
  /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc \
- /home/lida/Documents/programki/C++/4sem/hw/task_1/group.h \
+ /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/group.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/bits/list.tcc \
- /home/lida/Documents/programki/C++/4sem/hw/task_1/user.h
+ /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/user.h

@@ -9,7 +9,7 @@
 
 template <typename... T>
 struct TypeList;
-namespace __TypeList_namespace__{
+namespace TypeList_inner{
     //Получение элемента списка по его индексу
     template <size_t i, typename List>
     struct Get;
@@ -81,21 +81,21 @@ namespace __TypeList_namespace__{
 };
 
 template <size_t i, typename List>
-using get = typename __TypeList_namespace__::Get<i, List>::type;
+using get = typename TypeList_inner::Get<i, List>::type;
 
 template <typename List>
-inline constexpr size_t size = __TypeList_namespace__::Size<List>::size;
+inline constexpr size_t size = TypeList_inner::Size<List>::size;
 
 template <typename Type, typename List>
-inline constexpr bool is_contained = __TypeList_namespace__::IsContained<Type, List>::value;
+inline constexpr bool is_contained = TypeList_inner::IsContained<Type, List>::value;
 
 template <typename Type, typename List>
-inline constexpr int index = __TypeList_namespace__::Index<Type, 0, List>::index;
+inline constexpr int index = TypeList_inner::Index<Type, 0, List>::index;
 
 template <typename Elem, typename List>
-using pushback = typename __TypeList_namespace__::PushBack<Elem, List>::type;
+using pushback = typename TypeList_inner::PushBack<Elem, List>::type;
 
 template <typename Elem, typename List>
-using pushfront = typename __TypeList_namespace__::PushFront<Elem, List>::type;
+using pushfront = typename TypeList_inner::PushFront<Elem, List>::type;
 
 #endif

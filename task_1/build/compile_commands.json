@@ -1,17 +1,17 @@
 [
 {
-  "directory": "/home/lida/Documents/programki/C++/4sem/hw/task_1/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/task_1.dir/group.cpp.o -c /home/lida/Documents/programki/C++/4sem/hw/task_1/group.cpp",
-  "file": "/home/lida/Documents/programki/C++/4sem/hw/task_1/group.cpp"
+  "directory": "/home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/task_1.dir/group.cpp.o -c /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/group.cpp",
+  "file": "/home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/group.cpp"
 },
 {
-  "directory": "/home/lida/Documents/programki/C++/4sem/hw/task_1/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/task_1.dir/user.cpp.o -c /home/lida/Documents/programki/C++/4sem/hw/task_1/user.cpp",
-  "file": "/home/lida/Documents/programki/C++/4sem/hw/task_1/user.cpp"
+  "directory": "/home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/task_1.dir/user.cpp.o -c /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/user.cpp",
+  "file": "/home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/user.cpp"
 },
 {
-  "directory": "/home/lida/Documents/programki/C++/4sem/hw/task_1/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/task_1.dir/task_1.cpp.o -c /home/lida/Documents/programki/C++/4sem/hw/task_1/task_1.cpp",
-  "file": "/home/lida/Documents/programki/C++/4sem/hw/task_1/task_1.cpp"
+  "directory": "/home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/task_1.dir/task_1.cpp.o -c /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/task_1.cpp",
+  "file": "/home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/task_1.cpp"
 }
 ]

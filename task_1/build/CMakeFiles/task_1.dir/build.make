@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lida/Documents/programki/C++/4sem/hw/task_1
+CMAKE_SOURCE_DIR = /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lida/Documents/programki/C++/4sem/hw/task_1/build
+CMAKE_BINARY_DIR = /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/task_1.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/task_1.dir/flags.make
 CMakeFiles/task_1.dir/group.cpp.o: CMakeFiles/task_1.dir/flags.make
 CMakeFiles/task_1.dir/group.cpp.o: ../group.cpp
 CMakeFiles/task_1.dir/group.cpp.o: CMakeFiles/task_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lida/Documents/programki/C++/4sem/hw/task_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task_1.dir/group.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task_1.dir/group.cpp.o -MF CMakeFiles/task_1.dir/group.cpp.o.d -o CMakeFiles/task_1.dir/group.cpp.o -c /home/lida/Documents/programki/C++/4sem/hw/task_1/group.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task_1.dir/group.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task_1.dir/group.cpp.o -MF CMakeFiles/task_1.dir/group.cpp.o.d -o CMakeFiles/task_1.dir/group.cpp.o -c /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/group.cpp
 
 CMakeFiles/task_1.dir/group.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task_1.dir/group.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lida/Documents/programki/C++/4sem/hw/task_1/group.cpp > CMakeFiles/task_1.dir/group.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/group.cpp > CMakeFiles/task_1.dir/group.cpp.i
 
 CMakeFiles/task_1.dir/group.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task_1.dir/group.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lida/Documents/programki/C++/4sem/hw/task_1/group.cpp -o CMakeFiles/task_1.dir/group.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/group.cpp -o CMakeFiles/task_1.dir/group.cpp.s
 
 CMakeFiles/task_1.dir/user.cpp.o: CMakeFiles/task_1.dir/flags.make
 CMakeFiles/task_1.dir/user.cpp.o: ../user.cpp
 CMakeFiles/task_1.dir/user.cpp.o: CMakeFiles/task_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lida/Documents/programki/C++/4sem/hw/task_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task_1.dir/user.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task_1.dir/user.cpp.o -MF CMakeFiles/task_1.dir/user.cpp.o.d -o CMakeFiles/task_1.dir/user.cpp.o -c /home/lida/Documents/programki/C++/4sem/hw/task_1/user.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task_1.dir/user.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task_1.dir/user.cpp.o -MF CMakeFiles/task_1.dir/user.cpp.o.d -o CMakeFiles/task_1.dir/user.cpp.o -c /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/user.cpp
 
 CMakeFiles/task_1.dir/user.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task_1.dir/user.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lida/Documents/programki/C++/4sem/hw/task_1/user.cpp > CMakeFiles/task_1.dir/user.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/user.cpp > CMakeFiles/task_1.dir/user.cpp.i
 
 CMakeFiles/task_1.dir/user.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task_1.dir/user.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lida/Documents/programki/C++/4sem/hw/task_1/user.cpp -o CMakeFiles/task_1.dir/user.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/user.cpp -o CMakeFiles/task_1.dir/user.cpp.s
 
 CMakeFiles/task_1.dir/task_1.cpp.o: CMakeFiles/task_1.dir/flags.make
 CMakeFiles/task_1.dir/task_1.cpp.o: ../task_1.cpp
 CMakeFiles/task_1.dir/task_1.cpp.o: CMakeFiles/task_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lida/Documents/programki/C++/4sem/hw/task_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task_1.dir/task_1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task_1.dir/task_1.cpp.o -MF CMakeFiles/task_1.dir/task_1.cpp.o.d -o CMakeFiles/task_1.dir/task_1.cpp.o -c /home/lida/Documents/programki/C++/4sem/hw/task_1/task_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task_1.dir/task_1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task_1.dir/task_1.cpp.o -MF CMakeFiles/task_1.dir/task_1.cpp.o.d -o CMakeFiles/task_1.dir/task_1.cpp.o -c /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/task_1.cpp
 
 CMakeFiles/task_1.dir/task_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task_1.dir/task_1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lida/Documents/programki/C++/4sem/hw/task_1/task_1.cpp > CMakeFiles/task_1.dir/task_1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/task_1.cpp > CMakeFiles/task_1.dir/task_1.cpp.i
 
 CMakeFiles/task_1.dir/task_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task_1.dir/task_1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lida/Documents/programki/C++/4sem/hw/task_1/task_1.cpp -o CMakeFiles/task_1.dir/task_1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/task_1.cpp -o CMakeFiles/task_1.dir/task_1.cpp.s
 
 # Object files for target task_1
 task_1_OBJECTS = \
@@ -125,7 +125,7 @@ task_1: CMakeFiles/task_1.dir/user.cpp.o
 task_1: CMakeFiles/task_1.dir/task_1.cpp.o
 task_1: CMakeFiles/task_1.dir/build.make
 task_1: CMakeFiles/task_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lida/Documents/programki/C++/4sem/hw/task_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable task_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable task_1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/task_1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/task_1.dir/clean:
 .PHONY : CMakeFiles/task_1.dir/clean
 
 CMakeFiles/task_1.dir/depend:
-	cd /home/lida/Documents/programki/C++/4sem/hw/task_1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lida/Documents/programki/C++/4sem/hw/task_1 /home/lida/Documents/programki/C++/4sem/hw/task_1 /home/lida/Documents/programki/C++/4sem/hw/task_1/build /home/lida/Documents/programki/C++/4sem/hw/task_1/build /home/lida/Documents/programki/C++/4sem/hw/task_1/build/CMakeFiles/task_1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1 /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1 /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/build /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/build /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/build/CMakeFiles/task_1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/task_1.dir/depend
 

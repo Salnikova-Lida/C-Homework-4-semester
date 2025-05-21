@@ -1,4 +1,4 @@
-# Install script for directory: /home/lida/Documents/programki/C++/4sem/hw/task_6
+# Install script for directory: /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_6
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lida/Documents/programki/C++/4sem/hw/task_6/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_6/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

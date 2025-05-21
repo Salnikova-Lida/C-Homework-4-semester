@@ -195,14 +195,57 @@ CMakeFiles/task_5.dir/task_5.cpp.o: ../task_5.cpp \
   /usr/include/c++/11/bits/stl_list.h \
   /usr/include/c++/11/bits/allocated_ptr.h \
   /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/list.tcc
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/c++/11/pstl/execution_defs.h
 
+
+/usr/include/c++/11/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/11/bits/refwrap.h:
+
+/usr/include/c++/11/array:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/c++/11/memory:
 
 /usr/include/c++/11/bits/stl_list.h:
 
 ../log.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/c++/11/bits/align.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
@@ -232,6 +275,8 @@ CMakeFiles/task_5.dir/task_5.cpp.o: ../task_5.cpp \
 
 /usr/include/c++/11/bits/basic_ios.h:
 
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+
 /usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/c++/11/stdexcept:
@@ -256,6 +301,8 @@ CMakeFiles/task_5.dir/task_5.cpp.o: ../task_5.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
+/usr/include/c++/11/utility:
+
 /usr/include/errno.h:
 
 /usr/include/c++/11/cerrno:
@@ -269,6 +316,8 @@ CMakeFiles/task_5.dir/task_5.cpp.o: ../task_5.cpp \
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/11/bits/shared_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
@@ -332,11 +381,15 @@ CMakeFiles/task_5.dir/task_5.cpp.o: ../task_5.cpp \
 
 /usr/include/c++/11/bits/range_access.h:
 
+/usr/include/c++/11/bit:
+
 /usr/include/c++/11/cstdlib:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
@@ -362,6 +415,8 @@ CMakeFiles/task_5.dir/task_5.cpp.o: ../task_5.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
+/usr/include/c++/11/bits/unique_ptr.h:
+
 /usr/include/c++/11/ostream:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
@@ -377,6 +432,8 @@ CMakeFiles/task_5.dir/task_5.cpp.o: ../task_5.cpp \
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -402,7 +459,11 @@ CMakeFiles/task_5.dir/task_5.cpp.o: ../task_5.cpp \
 
 /usr/include/features.h:
 
+/usr/include/c++/11/bits/atomic_base.h:
+
 /usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/c++/11/pstl/glue_memory_defs.h:
 
 /usr/include/c++/11/ext/type_traits.h:
 
@@ -444,6 +505,8 @@ CMakeFiles/task_5.dir/task_5.cpp.o: ../task_5.cpp \
 
 /usr/include/c++/11/bits/postypes.h:
 
+/usr/include/c++/11/bits/invoke.h:
+
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/c++/11/exception:
@@ -457,6 +520,8 @@ CMakeFiles/task_5.dir/task_5.cpp.o: ../task_5.cpp \
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/11/tuple:
 
 /usr/include/c++/11/type_traits:
 
@@ -526,6 +591,8 @@ CMakeFiles/task_5.dir/task_5.cpp.o: ../task_5.cpp \
 
 /usr/include/c++/11/bits/ios_base.h:
 
+/usr/include/c++/11/ext/concurrence.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
@@ -555,6 +622,8 @@ CMakeFiles/task_5.dir/task_5.cpp.o: ../task_5.cpp \
 /usr/include/c++/11/ext/new_allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 

@@ -1,7 +1,7 @@
 CMakeFiles/task_1.dir/group.cpp.o: \
- /home/lida/Documents/programki/C++/4sem/hw/task_1/group.cpp \
+ /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/group.cpp \
  /usr/include/stdc-predef.h \
- /home/lida/Documents/programki/C++/4sem/hw/task_1/group.h \
+ /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/group.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -173,4 +173,4 @@ CMakeFiles/task_1.dir/group.cpp.o: \
  /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/bits/list.tcc \
- /home/lida/Documents/programki/C++/4sem/hw/task_1/user.h
+ /home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_1/user.h

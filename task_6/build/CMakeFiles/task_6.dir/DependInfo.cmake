@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/lida/Documents/programki/C++/4sem/hw/task_6/task_6.cpp" "CMakeFiles/task_6.dir/task_6.cpp.o" "gcc" "CMakeFiles/task_6.dir/task_6.cpp.o.d"
+  "/home/lida/Documents/programki/C++/4sem/C-Homework-4-semester/task_6/task_6.cpp" "CMakeFiles/task_6.dir/task_6.cpp.o" "gcc" "CMakeFiles/task_6.dir/task_6.cpp.o.d"
   )
 
 # Targets to which this target links.

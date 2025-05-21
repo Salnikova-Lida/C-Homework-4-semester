@@ -75,6 +75,7 @@ void deleteGroup(int id){
         group_list.erase(target);
         return;
     }
+    delete *target;
     std::cout << "Group with id " << id << " does not exist\n" << std::endl;
 }
 
@@ -157,9 +158,8 @@ int process(const std::vector<std::string>& args){
     } else if (args[0] != "q"){
         std::cout << "Invalid command, press enter to see 'help'\n" << std::endl;
         return 0;
-    } else {
-        return 1;
     }
+    return 1;
 }
 
 std::vector<std::string> parse(const std::string& line){

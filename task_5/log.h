@@ -5,6 +5,7 @@
 #include <iostream>
 #include <list>
 #include <string>
+#include <memory>
 
 template <typename Derived>
 class Singleton{
@@ -15,7 +16,7 @@ class Singleton{
 
     template <typename... T>
     static Derived* Instance(T... args){
-        static Derived* object = new Derived(args...);
+        static Derived* object = new Derived(args...); //  просто статик без нью может помочь
         return object;
     }
 };
@@ -36,40 +37,45 @@ class Log : public Singleton<Log>{
             str_time.pop_back();
             std::string str_level;
             switch (level){
-                case LOG_NORMAL:
+                case LOG_NORMAL:{
                     str_level = "LOG_NORMAL ";
-                case LOG_WARNING:
+                    break;}
+                case LOG_WARNING:{
                     str_level = "LOG_WARNING";
-                case LOG_ERROR:
+                    break;}
+                case LOG_ERROR:{
                     str_level = "LOG_ERROR  ";
+                    break;}
             }
             return str_time + "|" + str_level + "|: " + message;
         }
     };
 
     void message(LogLevel level, const std::string text){
-        messages.push_back(new Message(std::time(nullptr), text, level));
+        messages.push_back(std::make_unique<Message>(std::time(nullptr), text, level));
         if (messages.size() > buffer){
-            messages.pop_front();
+            messages.pop_front(); //очистить память, сдвинуть указатель. Утечка памяти. Done
+
         }
     }
 
     void print(){
-        for (Message* const mes : messages){
-            std::cout << (*mes).to_string() << std::endl;
+        for (auto&& mes : messages){
+            std::cout << mes->to_string() << std::endl;
         }
     }
 
     ~Log(){
-        for (const Message* mes : messages){
-            delete mes;
-        }
         messages.clear();
     }
 
   private:
-    static const int buffer = 10;
-    std::list<Message*> messages;
+    const int buffer = 10;
+    std::list<std::unique_ptr<Message>> messages;
 };
 
 #endif
+
+
+// r-value ссылка на юник птр, потому что обычный указатель вызывал бы итератор, копирующий элементы, а так нельзя
+// вместо обычного указателя перемещаем в это ауто ссылку и работаем 

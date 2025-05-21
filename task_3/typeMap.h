@@ -3,7 +3,7 @@
 
 #include "typeList.h"
 
-namespace __TypeMap_namespace__{
+namespace TypeMap_inners{
     struct node_outer{
         node_outer* next{nullptr};
         bool defined{false};
@@ -12,9 +12,6 @@ namespace __TypeMap_namespace__{
         virtual void GetData(void* _data) = 0;
         virtual ~node_outer() = default;
     };
-
-    template <typename T1, typename... T2>
-    struct node;
 
     template <typename T, typename... T2>
     struct node : node_outer{
@@ -35,11 +32,11 @@ namespace __TypeMap_namespace__{
 
 template <typename... T>
 class TypeMap{
-    using node_outer = typename __TypeMap_namespace__::node_outer;
+    using node_outer = typename TypeMap_inner::node_outer;
     using Keys = TypeList<T...>;
 
     template <typename... Types>
-    using node = typename __TypeMap_namespace__::node<Types...>;
+    using node = typename TypeMap_inner::node<Types...>;
 
   public:
     TypeMap(){
@@ -58,7 +55,7 @@ class TypeMap{
     }
 
     constexpr size_t Size() const{
-        return __TypeList_namespace__::Size<Keys>::size;
+        return TypeList_inner::Size<Keys>::size;
     }
     
     //Добавление элемента в контейнер с указанием типа в качестве ключа

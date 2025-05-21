@@ -22,24 +22,14 @@ struct ControlPoint{
     std::string str_val{"Point: "};
 };
 
-class Builder{
-  public:
-    virtual ~Builder(){}
-    virtual void printPoint() const = 0;
-    virtual int sum() const = 0;
-};
-
-class ConcreteBuilder : Builder{
+class ConcreteBuilder{
   public:
     ConcreteBuilder(){}
-    ~ConcreteBuilder(){
-        delete product;
-    }
-    void SetProduct(ControlPoint* point){
+    void SetProduct(std::shared_ptr<ControlPoint> point){
         product = point;
     }
 
-    virtual void printPoint() const override{
+    virtual void printPoint() const {
         product->str_val += "name: " + product->name + "; coords: [" + tostr(product->latitude) + ", " + tostr(product->longitude) + "]; ";
         std::string penalty = product->penalty == -1 ? "незачет СУ" : tostr(product->penalty);
         product->str_val += std::string("penalty: ") + penalty;
@@ -53,7 +43,7 @@ class ConcreteBuilder : Builder{
     }
 
   private:
-    ControlPoint* product;
+    std::shared_ptr<ControlPoint> product;
 };
 
 #endif
